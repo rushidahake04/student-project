@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Client Side</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>com.atdservices.servlet.StudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>com.atdservices.servlet.AddStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/AddStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateStudentServlet</servlet-name>
+    <servlet-class>com.atdservices.servlet.UpdateStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateStudentServlet</servlet-name>
+    <url-pattern>/UpdateStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateStudentFormServlet</servlet-name>
+    <servlet-class>com.atdservices.servlet.UpdateStudentFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateStudentFormServlet</servlet-name>
+    <url-pattern>/UpdateStudentFormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <servlet-class>com.atdservices.servlet.DeleteStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <url-pattern>/DeleteStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectServlet</servlet-name>
+    <servlet-class>com.atdservices.servlet.ProjectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProjectServlet</servlet-name>
+    <url-pattern>/ProjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddProjectServlet</servlet-name>
+    <servlet-class>com.atdservices.servlet.AddProjectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProjectServlet</servlet-name>
+    <url-pattern>/AddProjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteProjectServlet</servlet-name>
+    <servlet-class>com.atdservices.servlet.DeleteProjectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteProjectServlet</servlet-name>
+    <url-pattern>/DeleteProjectServlet</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateProjectServlet</servlet-name>
+    <servlet-class>com.atdservices.servlet.UpdateProjectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProjectServlet</servlet-name>
+    <url-pattern>/UpdateProjectServlet</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateProjectFormServlet</servlet-name>
+    <servlet-class>com.atdservices.servlet.UpdateProjectFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProjectFormServlet</servlet-name>
+    <url-pattern>/UpdateProjectFormServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
