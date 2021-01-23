@@ -17,11 +17,11 @@
 			id="project_no" value="<%=project.getProjectNumber()%>"
 			readonly="readonly"><br> <br>Project Name <input
 			type="text" name="project_name" id="project_name"
-			value="<%=project.getProjectName()%>"><br> <br>Duration
+			value="<%=project.getProjectName()%>" required><br> <br>Duration
 		<input type="number" name="project_duration" id="project_duration"
-			value="<%=project.getProjectDuration()%>"> <br> <br>Platform
+			value="<%=project.getProjectDuration()%>"required> <br> <br>Platform
 		<input type="text" name="project_platform" id="project_platform"
-			value="<%=project.getProjectPlatform()%>"><br> <br>
+			value="<%=project.getProjectPlatform()%>"required><br> <br>
 		<input type="submit" value="submit"><br>
 	</form>
    <button type="button">
