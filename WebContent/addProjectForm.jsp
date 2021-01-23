@@ -10,10 +10,10 @@
 <div align="center">
 <h1>Enter Project Details</h1>
 <form action="<%=request.getContextPath()%>/AddProjectServlet" method="post">
-<br>Project No   <input type="text" name="project_no" id="project_no" ><br>
-<br>Project Name <input type="text" name="project_name" id="project_name"><br>
-<br>Duration   <input type="number" name="project_duration" id="project_duration"><br>
-<br>Platform   <input type="text" name="project_platform" id="project_platform"><br>
+<br>Project No   <input type="text" name="project_no" id="project_no" required ><br>
+<br>Project Name <input type="text" name="project_name" id="project_name" required><br>
+<br>Duration   <input type="number" name="project_duration" id="project_duration" required><br>
+<br>Platform   <input type="text" name="project_platform" id="project_platform" required><br>
 <br><input type="submit" value="submit"><br>
 <button type="button">
 		<a href="project_home.jsp">Student Home</a>
