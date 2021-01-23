@@ -16,7 +16,7 @@
 <br>Platform   <input type="text" name="project_platform" id="project_platform" required><br>
 <br><input type="submit" value="submit"><br>
 <button type="button">
-		<a href="project_home.jsp">Student Home</a>
+		<a href="project_home.jsp">Project Home</a>
 	</button>
 </form>
 </div>
