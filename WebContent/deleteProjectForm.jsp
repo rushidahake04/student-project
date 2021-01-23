@@ -14,7 +14,7 @@
   <br> <input type="checkbox"  required>Agree To Delete Permanantly<br>
   <br> <input type="submit" value="submit">
   <button type="button">
-		<a href="project_home.jsp">Student Home</a>
+		<a href="project_home.jsp">Project Home</a>
 	</button>
    </form>
 </div>
