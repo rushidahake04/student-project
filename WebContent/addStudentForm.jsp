@@ -11,10 +11,10 @@
 <h1>Enter Student Details</h1>
 
 <form action="<%=request.getContextPath()%>/AddStudentServlet" method="post">
-<br>Student Number   <input type="text" name="student_no" id="student_no" ><br>
-<br>Student Name <input type="text" name="student_name" id="student_name"><br>
-<br>Birth Date   <input type="date" name="student_dob" id="student_dob"><br>
-<br>Joining Date <input type="date" name="student_doj" id="student_doj"><br>
+<br>Student Number   <input type="text" name="student_no" id="student_no" required><br>
+<br>Student Name <input type="text" name="student_name" id="student_name" required><br>
+<br>Birth Date   <input type="date" name="student_dob" id="student_dob" required><br>
+<br>Joining Date <input type="date" name="student_doj" id="student_doj" required><br>
 <br><input type="submit" value="submit">
 <button type="button">
 		<a href="student_home.jsp">Student Home</a>
