@@ -19,11 +19,11 @@
 				id="student_no" value="<%=student.getStudentNumber()%>"
 				readonly="readonly"><br> <br>Student Name <input
 				type="text" name="student_name" id="student_name"
-				value="<%=student.getStudentName()%>"><br> <br>Birth
+				value="<%=student.getStudentName()%>"required><br> <br>Birth
 			Date <input type="date" name="student_dob" id="student_dob"
-				value="<%=student.getDateOfBirth()%>"><br> <br>Joining
+				value="<%=student.getDateOfBirth()%>"required><br> <br>Joining
 			Date <input type="date" name="student_doj" id="student_doj"
-				value="<%=student.getDateOfJoining()%>"><br> <br> 
+				value="<%=student.getDateOfJoining()%>"required><br> <br> 
 			<input type="submit" value="submit"><br>
 		</form>
 		 <button type="button">
