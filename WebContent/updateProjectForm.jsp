@@ -10,7 +10,7 @@
 <div align="center">
 <h3>Please Enter Carefully </h3>
 <form action="<%=request.getContextPath()%>/UpdateProjectFormServlet" method="post">
-<br>Project Number   <input type="text" name="project_no" id="project_no" ><br>
+<br>Project Number   <input type="text" name="project_no" id="project_no" required><br>
 <br> <input type="checkbox"  required>Agree To Update Data<br>
 <br> <input type="submit" value="submit">
 <button type="button">
