@@ -10,7 +10,7 @@
 <div align="center">
  <h3>Please Enter Carefully </h3>
    <form action="<%=request.getContextPath()%>/DeleteStudentServlet" method="post">
-  Enter Student Number <input type="text" id=studentno name=studentno><br>
+  Enter Student Number <input type="text" id=studentno name=studentno required><br>
   <br> <input type="checkbox"  required>Agree To Delete Permanantly<br>
   <br> <input type="submit" value="submit">
   <button type="button">
