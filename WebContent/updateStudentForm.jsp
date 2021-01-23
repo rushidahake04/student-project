@@ -11,7 +11,7 @@
 		<h3>Please Enter Carefully</h3>
 		<form action="<%=request.getContextPath()%>/UpdateStudentFormServlet" method="post">
 			<br>Student Number <input type="text" name="student_no"
-				id="student_no"><br> <br> <input type="submit"
+				id="student_no" required><br> <br> <input type="submit"
 				value="submit">
 			<button type="button">
 				<a href="student_home.jsp">Student Home</a>
